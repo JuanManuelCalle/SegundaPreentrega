@@ -1,0 +1,30 @@
+$width: 60%;
+$height: 673px;
+$font_size: 1.5rem;
+$amarillo: #eec144;
+$display: flex;
+
+.card{
+    width: $width;
+  }
+  
+  .img_card{
+    height: $height;
+  }
+  
+  .font_text{
+    font-size: $font_size;
+    font-weight: 700;
+    color: $amarillo;
+  }
+  
+  .mision_card{
+    margin-top: 35px;
+}
+
+.main{
+    display: $display;
+    justify-content: center;
+    margin-top: 55px;
+    margin-bottom: 25px;
+  }

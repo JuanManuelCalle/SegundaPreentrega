@@ -1,0 +1,14 @@
+$amarillo: #eec144;
+$blanco: #ffffff;
+$negro: #080806;
+
+header{
+    background-color: $amarillo;
+    color: $blanco;
+    padding: 40px 20px;
+    text-align: center;
+
+    span{
+        color: $negro;
+    }
+}

@@ -1,0 +1,11 @@
+
+/* APLICO MIXIN */
+
+@mixin size($width, $height){
+    width: $width;
+    height: $height;
+}
+
+iframe{
+    @include size(90%,700px)
+}

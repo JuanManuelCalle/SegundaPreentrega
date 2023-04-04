@@ -1,0 +1,22 @@
+$gradient: linear-gradient(140deg, rgba(238,193,68,1) 19%, rgba(8,8,6,0.7931547619047619) 78%);
+$rgb: rgb(238,193,68);
+$blanco: #ffffff;
+
+.whatsapp {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:40px;
+    right:40px;
+    background: $rgb;
+    background: $gradient;
+    color: $blanco;
+    border-radius:50px;
+    text-align:center;
+    font-size:30px;
+    z-index:100;
+
+    .whatsapp-icon {
+        margin-top:13px;
+    }
+} 

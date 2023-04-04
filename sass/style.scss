@@ -1,0 +1,37 @@
+@import "menu";
+@import "main";
+@import "header";
+@import "footer";
+@import "contacto";
+@import "nosotros";
+@import "card";
+@import "nosotros";
+@import "ubicacion";
+@import "index";
+@import "media";
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #444;
+}
+
+body::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5; 
+}
+
+body::-webkit-scrollbar{
+    width: 12px;
+    background-color: #ffffff;
+}
+
+body::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #eec144;
+}

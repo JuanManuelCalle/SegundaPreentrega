@@ -1,0 +1,35 @@
+$negro: #080806;
+$amarillo: #eec144;
+$blanco: #fff;
+$transition: .5s linear;
+
+.formulario_contacto{
+    width: 50%;
+    height: 100%;
+  }
+  
+  .title_contacto{
+      margin-top: 30px;
+      display: flex;
+      justify-content:  center;
+  }
+  
+  .textarea_contacto{
+    resize: none;
+    height: 150px;
+  }
+  
+  .btn_contacto{
+    background: $amarillo;
+    color: $negro;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .btn_contacto:hover{
+    background: $negro;
+    color: $blanco;
+    transition: $transition;
+  }

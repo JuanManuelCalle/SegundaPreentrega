@@ -1,0 +1,30 @@
+$negro: #080806;
+$blanco: #ffffff;
+$amarillo: #eec144;
+$display: flex;
+$transition: all .2s linear;
+
+
+.menu_items {
+    background-color: $negro;
+    display: $display;
+    justify-content: center;
+    padding: 10px;
+
+    a{
+        color: $blanco;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 10px;
+        margin: 0 10px;
+        border-radius: 20px;
+        transition: $transition;
+    } 
+
+    a:hover{
+        background-color: $blanco;
+        color: $blanco;
+        transition: $transition;
+    }
+
+  }

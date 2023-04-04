@@ -1,0 +1,121 @@
+/* Variables  */
+
+$box_shadow: 0 10px 20px rgba(0,0,0,0.3);
+$naranja: #e67e22;
+$negro: #080806;
+$amarillo: #eec144;
+$blanco: #ffff;
+$transition: all .2s ease;
+
+$cardEquipo: (
+  fondo: $blanco,
+  border-radius: 10px,
+  box: 0 5px 10px rgba(0,0,0,0.2),
+  margin: 20px,
+  padding: 30px,
+  maximo-w: 350px,
+  transicion: $transition,
+  maximo-h: 600px,
+);
+
+$cardFinal: (
+  fondo: $blanco,
+  border-radius: 10px,
+  box: 0 5px 10px rgba(0,0,0,0.2),
+  margin: 20px,
+  padding: 30px,
+  maximo-w: 350px,
+  transicion: $transition,
+  maximo-h: 746px,
+);
+
+.cardFinalEquipo {
+    background-color: map-get($cardEquipo , $fondo );
+    border-radius: map-get($cardEquipo , $border-radius );
+    box-shadow: map-get($cardEquipo , $box );
+    margin: map-get($cardEquipo , $margin );
+    padding: map-get($cardEquipo , $padding );
+    max-width: map-get($cardEquipo , $maximo-w );
+    transition: map-get($cardEquipo , $transicion );
+    max-height: map-get($cardEquipo , $maximo-h );
+  
+    h2{
+      color: $naranja;
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+  
+    img {
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+      border-radius: 50%;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+      object-fit: cover;
+    }
+  
+    p{
+      line-height: 1.5;
+      margin-top: 20px;
+      text-align: justify;
+    }
+  }
+  
+  .cardFinalEquipo:hover {
+    box-shadow: $box_shadow;
+    transform: translateY(-10px);
+  }
+  
+  /* Card para planes */
+  
+  .cardFinal {
+    background-color: map-get($cardFinal , $fondo );
+    border-radius: map-get($cardFinal , $border-radius );
+    box-shadow: map-get($cardFinal , $box );
+    margin: map-get($cardFinal , $margin );
+    padding: map-get($cardFinal , $padding );
+    max-width: map-get($cardFinal , $maximo-w );
+    transition: map-get($cardFinal , $transicion );
+    max-height: map-get($cardFinal , $maximo-h );
+  
+    h2{
+      color: $naranja;
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+  
+    img{
+      display: block;
+      margin: 0 auto;
+      width: 80%;
+      border-radius: 50%;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+      object-fit: cover;
+    }
+  
+    p{
+      line-height: 1.5;
+      margin-top: 20px;
+      text-align: justify;
+    }
+  }
+  
+  .cardFinal:hover {
+    box-shadow: $box_shadow;
+    transform: translateY(-10px);
+  }
+  
+  .btn_card{
+    background: $amarillo;
+    color: $negro;
+    width: 121px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .btn_card:hover{
+    background: $negro;
+    color: #fff;
+    transition: .5s linear;
+  }
