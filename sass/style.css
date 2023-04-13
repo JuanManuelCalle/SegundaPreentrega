@@ -385,6 +385,9 @@ iframe {
   .img_card {
     height: 200px;
   }
+  .text-center .row {
+    display: grid;
+  }
 }
 body {
   font-family: "Poppins", sans-serif;
