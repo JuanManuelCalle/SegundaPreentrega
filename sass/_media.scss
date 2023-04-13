@@ -20,3 +20,12 @@ $width: 880px;
 	}
 
 }
+
+$width_mobile: 320px;
+$width_max_mobile: 767px;
+
+@media (min-width: $width_mobile) and (max-width: $width_max_mobile){
+	.img_card{
+		height: 200px;
+	}
+}

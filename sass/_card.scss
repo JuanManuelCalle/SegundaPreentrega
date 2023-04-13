@@ -30,14 +30,15 @@ $cardFinal: (
 );
 
 .cardFinalEquipo {
-    background-color: map-get($cardEquipo , $fondo );
-    border-radius: map-get($cardEquipo , $border-radius );
-    box-shadow: map-get($cardEquipo , $box );
-    margin: map-get($cardEquipo , $margin );
-    padding: map-get($cardEquipo , $padding );
-    max-width: map-get($cardEquipo , $maximo-w );
-    transition: map-get($cardEquipo , $transicion );
-    max-height: map-get($cardEquipo , $maximo-h );
+    background-color: map-get($cardFinal , "fondo" );
+    border-radius: map-get($cardFinal , "border-radius" );
+    box-shadow: map-get($cardFinal , "box" );
+    margin: map-get($cardFinal , "margin" );
+    padding: map-get($cardFinal , "padding" );
+    max-width: map-get($cardFinal , "maximo-w" );
+    transition: map-get($cardFinal , "transicion" );
+    max-height: map-get($cardEquipo , "maximo-h" );
+  
   
     h2{
       color: $naranja;
@@ -69,14 +70,14 @@ $cardFinal: (
   /* Card para planes */
   
   .cardFinal {
-    background-color: map-get($cardFinal , $fondo );
-    border-radius: map-get($cardFinal , $border-radius );
-    box-shadow: map-get($cardFinal , $box );
-    margin: map-get($cardFinal , $margin );
-    padding: map-get($cardFinal , $padding );
-    max-width: map-get($cardFinal , $maximo-w );
-    transition: map-get($cardFinal , $transicion );
-    max-height: map-get($cardFinal , $maximo-h );
+    background-color: map-get($cardFinal , "fondo" );
+    border-radius: map-get($cardFinal , "border-radius" );
+    box-shadow: map-get($cardFinal , "box" );
+    margin: map-get($cardFinal , "margin" );
+    padding: map-get($cardFinal , "padding" );
+    max-width: map-get($cardFinal , "maximo-w" );
+    transition: map-get($cardFinal , "transicion" );
+    max-height: map-get($cardFinal , "maximo-h" );
   
     h2{
       color: $naranja;

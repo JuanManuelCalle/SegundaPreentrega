@@ -5,18 +5,18 @@
   padding: 10px;
 }
 .menu_items a {
-  color: white;
+  color: #ffffff;
   font-weight: bold;
   text-decoration: none;
   padding: 10px;
   margin: 0 10px;
   border-radius: 20px;
-  transition: all 0.2s ease;
+  transition: all 0.2s linear;
 }
 .menu_items a:hover {
-  background-color: white;
+  background-color: #ffffff;
   color: #eec144;
-  transition: 0.4s linear;
+  transition: all 0.2s linear;
 }
 
 main {
@@ -33,7 +33,7 @@ main .arrow_slider {
 
 header {
   background-color: #eec144;
-  color: white;
+  color: #ffffff;
   padding: 40px 20px;
   text-align: center;
 }
@@ -41,7 +41,6 @@ header span {
   color: #080806;
 }
 
-/* Footer css */
 .footer_principal {
   background: #080806;
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -81,7 +80,7 @@ header span {
   color: inherit;
 }
 .footer_principal .footer-company-name {
-  color: #222;
+  color: #080806;
   font-size: 14px;
   font-weight: normal;
   margin: 0;
@@ -119,7 +118,7 @@ header span {
   line-height: 2;
 }
 .footer_principal .footer-center p a {
-  color: #FFF;
+  color: #ffffff;
   text-decoration: none;
 }
 .footer_principal .footer-links a:before {
@@ -127,7 +126,7 @@ header span {
   font-weight: 300;
   font-size: 20px;
   left: 0;
-  color: #fff;
+  color: #ffffff;
   display: inline-block;
   padding-right: 5px;
 }
@@ -139,7 +138,7 @@ header span {
 }
 .footer_principal .footer-company-about {
   line-height: 20px;
-  color: #FFF;
+  color: #ffffff;
   font-size: 13px;
   font-weight: normal;
   margin: 0;
@@ -230,6 +229,7 @@ header span {
   margin-bottom: 25px;
 }
 
+/* Variables  */
 .cardFinalEquipo {
   background-color: white;
   border-radius: 10px;
@@ -274,7 +274,7 @@ header span {
   padding: 30px;
   max-width: 350px;
   transition: all 0.2s ease;
-  height: 746px;
+  max-height: 746px;
 }
 .cardFinal h2 {
   color: #e67e22;
@@ -341,6 +341,7 @@ header span {
   margin-bottom: 25px;
 }
 
+/* APLICO MIXIN */
 iframe {
   width: 90%;
   height: 700px;
@@ -354,7 +355,7 @@ iframe {
   right: 40px;
   background: rgb(238, 193, 68);
   background: linear-gradient(140deg, rgb(238, 193, 68) 19%, rgba(8, 8, 6, 0.7931547619) 78%);
-  color: #FFF;
+  color: #ffffff;
   border-radius: 50px;
   text-align: center;
   font-size: 30px;
@@ -378,6 +379,11 @@ iframe {
   }
   .footer_principal .footer-center i {
     margin-left: 0;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .img_card {
+    height: 200px;
   }
 }
 body {
